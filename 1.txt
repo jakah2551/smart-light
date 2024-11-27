@@ -1,0 +1,10 @@
+INGREDIENTI
+
+Chiavetta da USB a ESP-01/ESP-01S seriale
+ESP-8266 (modulo relè Wi-fi con esp01S)
+Trasformatore da 220V a 5V
+Cavo rosso da 24 awg
+Cavo nero da 24 awg
+Cavo marrone da 16 awg
+Cavo blu da 16 awg
+
