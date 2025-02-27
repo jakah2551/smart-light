@@ -1,0 +1,77 @@
+/* style.css */
+body {
+    background-color: #F2F2F2; /* Colore di sfondo */
+    font-family: Arial, sans-serif;
+    color: #F28705; /* Colore delle scritte */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #F28705; /* Colore del titolo */
+  }
+  
+  button {
+    background-color: #F28705; /* Colore di sfondo dei pulsanti */
+    color: white; /* Colore del testo dei pulsanti */
+    border: none;
+    border-radius: 8px; /* Bordi stondati */
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Effetto di rialzo */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #e67600; /* Cambia colore al passaggio del mouse */
+    transform: translateY(-2px); /* Effetto di sollevamento */
+  }
+  
+  button:active {
+    transform: translateY(0); /* Ritorna alla posizione originale quando cliccato */
+  }
+  
+  a {
+    color: #F28705; /* Colore dei link */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Sottolinea i link al passaggio del mouse */
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input[type="text"], input[type="password"], select {
+    padding: 8px;
+    border: 1px solid #F28705;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  input[type="submit"] {
+    background-color: #F28705;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #e67600;
+    transform: translateY(-2px);
+  }
+  
+  input[type="submit"]:active {
+    transform: translateY(0);
+  }
