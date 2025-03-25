@@ -16,5 +16,4 @@ Tutorial configurazione smart-light:
 3) attendere di vedere il segnale del wifi per capire di essere perfettamente connessi al dispositivo
 4) aprire un browser e collegarsi alla pagina '192.168.4.1'
 5) configurare come si preferisce il dispositivo
-6) collegarsi dal browser all'ip del dispositivo per poterlo controllare
-
+6) collegarsi dal browser all'ip mostrto a schermo nel momento della configurazione del dispositivo per poterlo controllare
