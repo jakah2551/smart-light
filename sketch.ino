@@ -51,6 +51,7 @@ void loop() {
 
 void startAPMode() {
   WiFi.mode(WIFI_AP);
+  WiFi.setSleep(false);
   WiFi.softAP("ESP-Switch");
   server.on("/", serveWifiConfig); // Serve la pagina di configurazione WiFi
   server.on("/scan", handleScan); // Gestisce la scansione delle reti WiFi
@@ -61,6 +62,7 @@ void startAPMode() {
 
 void connectToWiFi() {
   WiFi.mode(WIFI_STA);
+  WiFi.setSleep(false);
   WiFi.begin(config.ssid, config.password);
 
   int attempts = 0;
